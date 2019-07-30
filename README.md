@@ -1,5 +1,5 @@
 # e-lstm-d
-<<<<<<< HEAD
+
 This is a TensorFlow implementation of the paper: [E-LSTM-D: A Deep Learning Framework for Dynamic Network Link Prediction](https://arxiv.org/abs/1902.08329). The baselines used in the paper will be released as a toolbox soon.
 
 
@@ -41,6 +41,3 @@ Please cite our paper if you use this code in your own work:
   year={2019}
 }
 ```
-=======
-souece code of e-lstm-d
->>>>>>> dcbb22e3555be05d8d49c2763df910916c9bec66

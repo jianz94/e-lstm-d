@@ -57,7 +57,8 @@ class e_lstm_d():
             if i == 0:
                 model.add(Dense(self.encoder_units[i], input_shape=(self.historical_len, self.num_nodes, self.num_nodes),
                                 activation='relu', kernel_regularizer=l2(FLAGS.weight_decay)))
-            model.add(Dense(self.encoder_units[i], activation='relu', kernel_regularizer=l2(FLAGS.weight_decay)))
+            else:
+                model.add(Dense(self.encoder_units[i], activation='relu', kernel_regularizer=l2(FLAGS.weight_decay)))
         return model
     
     def _build_decoder(self):
